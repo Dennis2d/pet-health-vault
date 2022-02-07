@@ -1,0 +1,522 @@
+[00:37:20.230] (debug) src\Controller.cpp:889: Using OEM C:\Program Files (x86)\Corsair SSD Toolbox\/CSSDT.OEM
+[00:37:20.230] (debug) src\LUAVM.cpp:94: Loading lua source.
+[00:37:20.266] (debug) src\Controller.cpp:157: AVF 1.2.4.2 AVS 1.2
+[00:37:20.266] (debug) src\Controller.cpp:165: OS: MajorVersion 6 MinorVersion 2 Build 9200
+[00:37:20.266] (debug) src\Controller.cpp:166: OS: CSDVersion 
+[00:37:20.266] (debug) src\Controller.cpp:167: OS: SPMajor 0 SPMinor 0
+[00:37:20.266] (debug) src\Controller.cpp:180: OS: ProductType 1 NT_WORKSTATION
+[00:37:20.266] (debug) src\Controller.cpp:203: OS: SuiteMask 768 - PERSONAL SINGLEUSERTS
+[00:37:20.266] (debug) src\Controller.cpp:217: DebugBasePath ''
+[00:37:20.266] (debug) src\Controller.cpp:218: ApplicationRootPath 'C:\Program Files (x86)\Corsair SSD Toolbox\'
+[00:37:20.266] (debug) src\Controller.cpp:219: ApplicationResourcePath 'C:\Program Files (x86)\Corsair SSD Toolbox\'
+[00:37:20.266] (debug) src\Controller.cpp:220: ApplicationExecutablePath 'C:\Program Files (x86)\Corsair SSD Toolbox\'
+[00:37:20.266] (debug) src\Controller.cpp:221: UserDataPath 'C:\Users\Dennis\AppData\Local'
+[00:37:20.266] (debug) src\Controller.cpp:222: AppUserDataPath 'C:\Users\Dennis\AppData\Local\Corsair\Corsair SSD Toolbox'
+[00:37:20.266] (debug) src\Controller.cpp:223: UserHomePath 'C:\Users\Dennis'
+[00:37:20.266] (debug) src\Controller.cpp:224: ExecutableName 'CSSDT.exe' - 'C:\Program Files (x86)\Corsair SSD Toolbox\CSSDT.exe'
+[00:37:20.266] (debug) src\Controller.cpp:225: StartupPath 'C:\Program Files (x86)\Corsair SSD Toolbox\'
+[00:37:20.266] (debug) src\Controller.cpp:227: SingleInstanceID 'CSSDT'
+[00:37:20.266] (debug) src\Controller.cpp:233: RegistryPath HKCU/SOFTWARE/Corsair/Corsair SSD Toolbox/1.2
+[00:37:20.266] (info) Win32\src\DeviceManagerImpl.cpp:52: Version: Major 6 Minor 2 Build 9200 PlatformId 2 CSDVersion  SPMajor 0 SPMinor 0 SuiteMask 768 ProductType 1
+[00:37:20.266] (debug) src\SSDToolManagerBase.cpp:312: Attempting to read SMART data from OEM Settings/SmartXML
+[00:37:20.266] (debug) Win32\src\DeviceManagerImpl.cpp:421: buildMountPointMap: DR=C:\ VN=\\?\Volume{10e30829-0000-0000-0000-501f00000000}\
+[00:37:20.266] (debug) Win32\src\DeviceManagerImpl.cpp:421: buildMountPointMap: DR=D:\ VN=\\?\Volume{279c1d71-587e-11e6-aa29-806e6f6e6963}\
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:12: ### START DUMP InstanceID: SCSI\CDROM&VEN_TSSTCORP&PROD_CDDVDW_SH-224GB\4&26892DD9&0&050000####
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:13:   PhysicalDeviceObjectName \Device\0000002b
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:14:   EnumeratorName SCSI
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:15:   Class CDROM
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:17:   DiskNumber[0] 0
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:18:   Offset[0] 0
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:19:   Length[0] 2147483647
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:21:   DriverName {4d36e965-e325-11ce-bfc1-08002be10318}\0000
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:22:   ProviderName Microsoft
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:23:   DriverDate 6-21-2006
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:24:   DriverVersion 10.0.10586.0
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:26:   VolumeDIPath \\?\scsi#cdrom&ven_tsstcorp&prod_cddvdw_sh-224gb#4&26892dd9&0&050000#{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:40: ### END DUMP ####
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:12: ### START DUMP InstanceID: STORAGE\VOLUME\{540445D8-5881-11E6-AA2C-806E6F6E6963}#0000000000100000####
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:13:   PhysicalDeviceObjectName \Device\HarddiskVolume1
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:14:   EnumeratorName STORAGE
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:15:   Class Volume
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:17:   DiskNumber[0] 0
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:18:   Offset[0] 1048576
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:19:   Length[0] 524288000
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:21:   DriverName {71a27cdd-812a-11d0-bec7-08002be2092f}\0002
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:22:   ProviderName Microsoft
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:23:   DriverDate 6-21-2006
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:24:   DriverVersion 10.0.10586.0
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:26:   VolumeDIPath \\?\storage#volume#{540445d8-5881-11e6-aa2c-806e6f6e6963}#0000000000100000#{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:40: ### END DUMP ####
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:12: ### START DUMP InstanceID: STORAGE\VOLUME\{540445D8-5881-11E6-AA2C-806E6F6E6963}#000000001F500000####
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:13:   PhysicalDeviceObjectName \Device\HarddiskVolume2
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:14:   EnumeratorName STORAGE
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:15:   Class Volume
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:17:   DiskNumber[0] 0
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:18:   Offset[0] 525336576
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:19:   Length[0] 239530409984
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:21:   DriverName {71a27cdd-812a-11d0-bec7-08002be2092f}\0003
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:22:   ProviderName Microsoft
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:23:   DriverDate 6-21-2006
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:24:   DriverVersion 10.0.10586.0
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:26:   VolumeDIPath \\?\storage#volume#{540445d8-5881-11e6-aa2c-806e6f6e6963}#000000001f500000#{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:40: ### END DUMP ####
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:12: ### START DUMP InstanceID: SCSI\DISK&VEN_CORSAI_&PROD_FORCE_LE_SSD\4&26892DD9&0&000000####
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:13:   PhysicalDeviceObjectName \Device\00000029
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:14:   EnumeratorName SCSI
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:15:   Class DiskDrive
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:17:   DiskNumber[0] 0
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:18:   Offset[0] 1048576
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:19:   Length[0] 524288000
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:17:   DiskNumber[1] 0
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:18:   Offset[1] 525336576
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:19:   Length[1] 239530409984
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:21:   DriverName {4d36e967-e325-11ce-bfc1-08002be10318}\0002
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:22:   ProviderName Microsoft
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:23:   DriverDate 6-21-2006
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:24:   DriverVersion 10.0.10586.0
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:29:   DiskDIPath \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:40: ### END DUMP ####
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:12: ### START DUMP InstanceID: SCSI\DISK&VEN_TOSHIB_&PROD_DT01ACA200\4&26892DD9&0&040000####
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:13:   PhysicalDeviceObjectName \Device\0000002a
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:14:   EnumeratorName SCSI
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:15:   Class DiskDrive
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:21:   DriverName {4d36e967-e325-11ce-bfc1-08002be10318}\0003
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:22:   ProviderName Microsoft
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:23:   DriverDate 6-21-2006
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:24:   DriverVersion 10.0.10586.0
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:29:   DiskDIPath \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:20.282] (debug) Win32\src\DeviceInfo.cpp:40: ### END DUMP ####
+[00:37:20.282] (debug) Win32\src\LogicalDeviceImpl.cpp:108: VNFVMP \\?\scsi#cdrom&ven_tsstcorp&prod_cddvdw_sh-224gb#4&26892dd9&0&050000#{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}\ -> \\?\Volume{279c1d71-587e-11e6-aa29-806e6f6e6963}\
+[00:37:20.282] (debug) Win32\src\DeviceManagerImpl.cpp:373: Matching MP for \\?\Volume{279c1d71-587e-11e6-aa29-806e6f6e6963}\
+[00:37:20.282] (debug) Win32\src\DeviceManagerImpl.cpp:376: Matched \\?\Volume{279c1d71-587e-11e6-aa29-806e6f6e6963}\ to D:\
+[00:37:20.282] (debug) Win32\src\LogicalDeviceImpl.cpp:108: VNFVMP \\?\storage#volume#{540445d8-5881-11e6-aa2c-806e6f6e6963}#0000000000100000#{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}\ -> \\?\Volume{10e30829-0000-0000-0000-100000000000}\
+[00:37:20.282] (debug) Win32\src\DeviceManagerImpl.cpp:373: Matching MP for \\?\Volume{10e30829-0000-0000-0000-100000000000}\
+[00:37:20.282] (debug) Win32\src\LogicalDeviceImpl.cpp:108: VNFVMP \\?\storage#volume#{540445d8-5881-11e6-aa2c-806e6f6e6963}#000000001f500000#{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}\ -> \\?\Volume{10e30829-0000-0000-0000-501f00000000}\
+[00:37:20.282] (debug) Win32\src\DeviceManagerImpl.cpp:373: Matching MP for \\?\Volume{10e30829-0000-0000-0000-501f00000000}\
+[00:37:20.282] (debug) Win32\src\DeviceManagerImpl.cpp:376: Matched \\?\Volume{10e30829-0000-0000-0000-501f00000000}\ to C:\
+[00:37:20.282] (debug) Win32\src\PhysicalDeviceImpl.cpp:194: STORAGE_DEVICE_DESCRIPTOR: 11 \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:20.282] (debug) src\DeviceOperationManagerWin.cpp:46: open, 02E61DF8, \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:20.282] (debug) src\DeviceOperationManagerWin.cpp:120: OK: CF A RWD \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:20.282] (debug) src\DeviceOperationManagerWin.cpp:822: =======================
+[00:37:20.282] (debug) src\DeviceOperationManagerWin.cpp:823: ==== Starting probe of \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:20.282] (debug) src\DeviceOperationManagerWin.cpp:558: Probe: ATA direct IDENTIFY DEVICE (MS 0) on \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:20.282] (debug) src\DeviceOperationManagerWin.cpp:563: Probe OK: ATA direct IDENTIFY DEVICE (MS 0) on \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} succeeded
+[00:37:20.282] (debug) src\DeviceOperationManagerWin.cpp:859: ==== Completed probe of \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} - Device type 2 Access method 1
+[00:37:20.282] (debug) src\DeviceOperationManagerWin.cpp:860: =======================
+[00:37:20.282] (debug) src\DeviceOperationManagerWin.cpp:71: Opened \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} DeviceType 2
+[00:37:20.282] (debug) Win32\src\PhysicalDeviceImpl.cpp:342: \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} DIOCTL SMART_SEND_DRIVE_COMMAND ENABLE_SMART
+[00:37:20.282] (debug) Win32\src\PhysicalDeviceImpl.cpp:347: \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} DIOCTL SMART_SEND_DRIVE_COMMAND ENABLE_SMART OK
+[00:37:20.282] (debug) Win32\src\PhysicalDeviceImpl.cpp:362: Attempting SMART IDENTIFY on \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:20.282] (debug) Win32\src\PhysicalDeviceImpl.cpp:367: SMART IDENTIFY on \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} succeeded, DeviceType is pdtFixedDisk
+[00:37:20.282] (debug) Win32\src\PhysicalDeviceImpl.cpp:82: PD:SCSI\DISK&VEN_CORSAI_&PROD_FORCE_LE_SSD\4&26892DD9&0&000000: Vendor '' Model 'Corsair Force LE SSD' Serial '162580190001041600FB' Revision 'SAFC12.2'
+[00:37:20.282] (debug) Win32\src\PhysicalDeviceImpl.cpp:194: STORAGE_DEVICE_DESCRIPTOR: 11 \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:20.282] (debug) src\DeviceOperationManagerWin.cpp:46: open, 02E62258, \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:20.282] (debug) src\DeviceOperationManagerWin.cpp:120: OK: CF A RWD \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:20.282] (debug) src\DeviceOperationManagerWin.cpp:822: =======================
+[00:37:20.282] (debug) src\DeviceOperationManagerWin.cpp:823: ==== Starting probe of \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:20.282] (debug) src\DeviceOperationManagerWin.cpp:558: Probe: ATA direct IDENTIFY DEVICE (MS 0) on \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:20.282] (debug) src\DeviceOperationManagerWin.cpp:563: Probe OK: ATA direct IDENTIFY DEVICE (MS 0) on \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} succeeded
+[00:37:20.282] (debug) src\DeviceOperationManagerWin.cpp:859: ==== Completed probe of \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} - Device type 2 Access method 1
+[00:37:20.282] (debug) src\DeviceOperationManagerWin.cpp:860: =======================
+[00:37:20.282] (debug) src\DeviceOperationManagerWin.cpp:71: Opened \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} DeviceType 2
+[00:37:20.282] (debug) Win32\src\PhysicalDeviceImpl.cpp:342: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} DIOCTL SMART_SEND_DRIVE_COMMAND ENABLE_SMART
+[00:37:20.913] (debug) Win32\src\PhysicalDeviceImpl.cpp:347: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} DIOCTL SMART_SEND_DRIVE_COMMAND ENABLE_SMART OK
+[00:37:20.913] (debug) Win32\src\PhysicalDeviceImpl.cpp:362: Attempting SMART IDENTIFY on \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:20.913] (debug) Win32\src\PhysicalDeviceImpl.cpp:367: SMART IDENTIFY on \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} succeeded, DeviceType is pdtFixedDisk
+[00:37:20.913] (debug) Win32\src\PhysicalDeviceImpl.cpp:82: PD:SCSI\DISK&VEN_TOSHIB_&PROD_DT01ACA200\4&26892DD9&0&040000: Vendor '' Model 'TOSHIBA DT01ACA200' Serial 'Z59M9KKTS' Revision 'MX4OABB0'
+[00:37:20.913] (debug) Win32\src\DeviceManagerImpl.cpp:288: ==BEGIN PHYSICAL DEVICE MAP==
+[00:37:20.913] (debug) Win32\src\DeviceManagerImpl.cpp:291:   PD:SCSI\DISK&VEN_CORSAI_&PROD_FORCE_LE_SSD\4&26892DD9&0&000000
+[00:37:20.913] (debug) Win32\src\DeviceManagerImpl.cpp:293:     LD:STORAGE\VOLUME\{540445D8-5881-11E6-AA2C-806E6F6E6963}#0000000000100000
+[00:37:20.913] (debug) Win32\src\DeviceManagerImpl.cpp:293:     LD:STORAGE\VOLUME\{540445D8-5881-11E6-AA2C-806E6F6E6963}#000000001F500000
+[00:37:20.913] (debug) Win32\src\DeviceManagerImpl.cpp:297:       C:\
+[00:37:20.913] (debug) Win32\src\DeviceManagerImpl.cpp:291:   PD:SCSI\DISK&VEN_TOSHIB_&PROD_DT01ACA200\4&26892DD9&0&040000
+[00:37:20.913] (debug) Win32\src\DeviceManagerImpl.cpp:302: ==END PHYSICAL DEVICE MAP==
+[00:37:20.913] (debug) Win32\src\DeviceManagerImpl.cpp:303: ==BEGIN LOGICAL DEVICE MAP==
+[00:37:20.913] (debug) Win32\src\DeviceManagerImpl.cpp:306:   LD:SCSI\CDROM&VEN_TSSTCORP&PROD_CDDVDW_SH-224GB\4&26892DD9&0&050000
+[00:37:20.913] (debug) Win32\src\DeviceManagerImpl.cpp:308:     D:\
+[00:37:20.913] (debug) Win32\src\DeviceManagerImpl.cpp:306:   LD:STORAGE\VOLUME\{540445D8-5881-11E6-AA2C-806E6F6E6963}#0000000000100000
+[00:37:20.913] (debug) Win32\src\DeviceManagerImpl.cpp:311:     PD:SCSI\DISK&VEN_CORSAI_&PROD_FORCE_LE_SSD\4&26892DD9&0&000000
+[00:37:20.913] (debug) Win32\src\DeviceManagerImpl.cpp:306:   LD:STORAGE\VOLUME\{540445D8-5881-11E6-AA2C-806E6F6E6963}#000000001F500000
+[00:37:20.913] (debug) Win32\src\DeviceManagerImpl.cpp:308:     C:\
+[00:37:20.913] (debug) Win32\src\DeviceManagerImpl.cpp:311:     PD:SCSI\DISK&VEN_CORSAI_&PROD_FORCE_LE_SSD\4&26892DD9&0&000000
+[00:37:20.913] (debug) Win32\src\DeviceManagerImpl.cpp:314: ==END LOGICAL DEVICE MAP==
+[00:37:20.913] (info) Win32\src\DeviceManagerImpl.cpp:52: Version: Major 6 Minor 2 Build 9200 PlatformId 2 CSDVersion  SPMajor 0 SPMinor 0 SuiteMask 768 ProductType 1
+[00:37:20.913] (debug) Win32\src\DeviceManagerImpl.cpp:421: buildMountPointMap: DR=C:\ VN=\\?\Volume{10e30829-0000-0000-0000-501f00000000}\
+[00:37:20.913] (debug) Win32\src\DeviceManagerImpl.cpp:421: buildMountPointMap: DR=D:\ VN=\\?\Volume{279c1d71-587e-11e6-aa29-806e6f6e6963}\
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:12: ### START DUMP InstanceID: SCSI\CDROM&VEN_TSSTCORP&PROD_CDDVDW_SH-224GB\4&26892DD9&0&050000####
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:13:   PhysicalDeviceObjectName \Device\0000002b
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:14:   EnumeratorName SCSI
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:15:   Class CDROM
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:17:   DiskNumber[0] 0
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:18:   Offset[0] 0
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:19:   Length[0] 2147483647
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:21:   DriverName {4d36e965-e325-11ce-bfc1-08002be10318}\0000
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:22:   ProviderName Microsoft
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:23:   DriverDate 6-21-2006
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:24:   DriverVersion 10.0.10586.0
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:26:   VolumeDIPath \\?\scsi#cdrom&ven_tsstcorp&prod_cddvdw_sh-224gb#4&26892dd9&0&050000#{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:40: ### END DUMP ####
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:12: ### START DUMP InstanceID: STORAGE\VOLUME\{540445D8-5881-11E6-AA2C-806E6F6E6963}#0000000000100000####
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:13:   PhysicalDeviceObjectName \Device\HarddiskVolume1
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:14:   EnumeratorName STORAGE
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:15:   Class Volume
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:17:   DiskNumber[0] 0
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:18:   Offset[0] 1048576
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:19:   Length[0] 524288000
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:21:   DriverName {71a27cdd-812a-11d0-bec7-08002be2092f}\0002
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:22:   ProviderName Microsoft
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:23:   DriverDate 6-21-2006
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:24:   DriverVersion 10.0.10586.0
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:26:   VolumeDIPath \\?\storage#volume#{540445d8-5881-11e6-aa2c-806e6f6e6963}#0000000000100000#{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:40: ### END DUMP ####
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:12: ### START DUMP InstanceID: STORAGE\VOLUME\{540445D8-5881-11E6-AA2C-806E6F6E6963}#000000001F500000####
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:13:   PhysicalDeviceObjectName \Device\HarddiskVolume2
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:14:   EnumeratorName STORAGE
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:15:   Class Volume
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:17:   DiskNumber[0] 0
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:18:   Offset[0] 525336576
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:19:   Length[0] 239530409984
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:21:   DriverName {71a27cdd-812a-11d0-bec7-08002be2092f}\0003
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:22:   ProviderName Microsoft
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:23:   DriverDate 6-21-2006
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:24:   DriverVersion 10.0.10586.0
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:26:   VolumeDIPath \\?\storage#volume#{540445d8-5881-11e6-aa2c-806e6f6e6963}#000000001f500000#{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:40: ### END DUMP ####
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:12: ### START DUMP InstanceID: SCSI\DISK&VEN_CORSAI_&PROD_FORCE_LE_SSD\4&26892DD9&0&000000####
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:13:   PhysicalDeviceObjectName \Device\00000029
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:14:   EnumeratorName SCSI
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:15:   Class DiskDrive
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:17:   DiskNumber[0] 0
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:18:   Offset[0] 1048576
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:19:   Length[0] 524288000
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:17:   DiskNumber[1] 0
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:18:   Offset[1] 525336576
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:19:   Length[1] 239530409984
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:21:   DriverName {4d36e967-e325-11ce-bfc1-08002be10318}\0002
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:22:   ProviderName Microsoft
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:23:   DriverDate 6-21-2006
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:24:   DriverVersion 10.0.10586.0
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:29:   DiskDIPath \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:40: ### END DUMP ####
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:12: ### START DUMP InstanceID: SCSI\DISK&VEN_TOSHIB_&PROD_DT01ACA200\4&26892DD9&0&040000####
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:13:   PhysicalDeviceObjectName \Device\0000002a
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:14:   EnumeratorName SCSI
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:15:   Class DiskDrive
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:21:   DriverName {4d36e967-e325-11ce-bfc1-08002be10318}\0003
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:22:   ProviderName Microsoft
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:23:   DriverDate 6-21-2006
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:24:   DriverVersion 10.0.10586.0
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:29:   DiskDIPath \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:20.913] (debug) Win32\src\DeviceInfo.cpp:40: ### END DUMP ####
+[00:37:20.913] (debug) Win32\src\LogicalDeviceImpl.cpp:108: VNFVMP \\?\scsi#cdrom&ven_tsstcorp&prod_cddvdw_sh-224gb#4&26892dd9&0&050000#{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}\ -> \\?\Volume{279c1d71-587e-11e6-aa29-806e6f6e6963}\
+[00:37:20.913] (debug) Win32\src\DeviceManagerImpl.cpp:373: Matching MP for \\?\Volume{279c1d71-587e-11e6-aa29-806e6f6e6963}\
+[00:37:20.913] (debug) Win32\src\DeviceManagerImpl.cpp:376: Matched \\?\Volume{279c1d71-587e-11e6-aa29-806e6f6e6963}\ to D:\
+[00:37:20.913] (debug) Win32\src\LogicalDeviceImpl.cpp:108: VNFVMP \\?\storage#volume#{540445d8-5881-11e6-aa2c-806e6f6e6963}#0000000000100000#{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}\ -> \\?\Volume{10e30829-0000-0000-0000-100000000000}\
+[00:37:20.913] (debug) Win32\src\DeviceManagerImpl.cpp:373: Matching MP for \\?\Volume{10e30829-0000-0000-0000-100000000000}\
+[00:37:20.913] (debug) Win32\src\LogicalDeviceImpl.cpp:108: VNFVMP \\?\storage#volume#{540445d8-5881-11e6-aa2c-806e6f6e6963}#000000001f500000#{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}\ -> \\?\Volume{10e30829-0000-0000-0000-501f00000000}\
+[00:37:20.913] (debug) Win32\src\DeviceManagerImpl.cpp:373: Matching MP for \\?\Volume{10e30829-0000-0000-0000-501f00000000}\
+[00:37:20.913] (debug) Win32\src\DeviceManagerImpl.cpp:376: Matched \\?\Volume{10e30829-0000-0000-0000-501f00000000}\ to C:\
+[00:37:20.913] (debug) Win32\src\PhysicalDeviceImpl.cpp:194: STORAGE_DEVICE_DESCRIPTOR: 11 \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:20.913] (debug) src\DeviceOperationManagerWin.cpp:46: open, 02E61E98, \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:20.913] (debug) src\DeviceOperationManagerWin.cpp:120: OK: CF A RWD \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:20.913] (debug) src\DeviceOperationManagerWin.cpp:822: =======================
+[00:37:20.913] (debug) src\DeviceOperationManagerWin.cpp:823: ==== Starting probe of \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:20.913] (debug) src\DeviceOperationManagerWin.cpp:558: Probe: ATA direct IDENTIFY DEVICE (MS 0) on \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:20.913] (debug) src\DeviceOperationManagerWin.cpp:563: Probe OK: ATA direct IDENTIFY DEVICE (MS 0) on \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} succeeded
+[00:37:20.913] (debug) src\DeviceOperationManagerWin.cpp:859: ==== Completed probe of \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} - Device type 2 Access method 1
+[00:37:20.913] (debug) src\DeviceOperationManagerWin.cpp:860: =======================
+[00:37:20.913] (debug) src\DeviceOperationManagerWin.cpp:71: Opened \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} DeviceType 2
+[00:37:20.913] (debug) Win32\src\PhysicalDeviceImpl.cpp:342: \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} DIOCTL SMART_SEND_DRIVE_COMMAND ENABLE_SMART
+[00:37:20.913] (debug) Win32\src\PhysicalDeviceImpl.cpp:347: \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} DIOCTL SMART_SEND_DRIVE_COMMAND ENABLE_SMART OK
+[00:37:20.913] (debug) Win32\src\PhysicalDeviceImpl.cpp:362: Attempting SMART IDENTIFY on \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:20.913] (debug) Win32\src\PhysicalDeviceImpl.cpp:367: SMART IDENTIFY on \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} succeeded, DeviceType is pdtFixedDisk
+[00:37:20.913] (debug) Win32\src\PhysicalDeviceImpl.cpp:82: PD:SCSI\DISK&VEN_CORSAI_&PROD_FORCE_LE_SSD\4&26892DD9&0&000000: Vendor '' Model 'Corsair Force LE SSD' Serial '162580190001041600FB' Revision 'SAFC12.2'
+[00:37:20.913] (debug) Win32\src\PhysicalDeviceImpl.cpp:194: STORAGE_DEVICE_DESCRIPTOR: 11 \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:20.913] (debug) src\DeviceOperationManagerWin.cpp:46: open, 02E622A8, \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:20.913] (debug) src\DeviceOperationManagerWin.cpp:120: OK: CF A RWD \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:20.913] (debug) src\DeviceOperationManagerWin.cpp:822: =======================
+[00:37:20.913] (debug) src\DeviceOperationManagerWin.cpp:823: ==== Starting probe of \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:20.913] (debug) src\DeviceOperationManagerWin.cpp:558: Probe: ATA direct IDENTIFY DEVICE (MS 0) on \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:20.913] (debug) src\DeviceOperationManagerWin.cpp:563: Probe OK: ATA direct IDENTIFY DEVICE (MS 0) on \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} succeeded
+[00:37:20.913] (debug) src\DeviceOperationManagerWin.cpp:859: ==== Completed probe of \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} - Device type 2 Access method 1
+[00:37:20.913] (debug) src\DeviceOperationManagerWin.cpp:860: =======================
+[00:37:20.913] (debug) src\DeviceOperationManagerWin.cpp:71: Opened \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} DeviceType 2
+[00:37:20.913] (debug) Win32\src\PhysicalDeviceImpl.cpp:342: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} DIOCTL SMART_SEND_DRIVE_COMMAND ENABLE_SMART
+[00:37:21.082] (debug) Win32\src\PhysicalDeviceImpl.cpp:347: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} DIOCTL SMART_SEND_DRIVE_COMMAND ENABLE_SMART OK
+[00:37:21.082] (debug) Win32\src\PhysicalDeviceImpl.cpp:362: Attempting SMART IDENTIFY on \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:21.082] (debug) Win32\src\PhysicalDeviceImpl.cpp:367: SMART IDENTIFY on \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} succeeded, DeviceType is pdtFixedDisk
+[00:37:21.082] (debug) Win32\src\PhysicalDeviceImpl.cpp:82: PD:SCSI\DISK&VEN_TOSHIB_&PROD_DT01ACA200\4&26892DD9&0&040000: Vendor '' Model 'TOSHIBA DT01ACA200' Serial 'Z59M9KKTS' Revision 'MX4OABB0'
+[00:37:21.082] (debug) Win32\src\DeviceManagerImpl.cpp:288: ==BEGIN PHYSICAL DEVICE MAP==
+[00:37:21.082] (debug) Win32\src\DeviceManagerImpl.cpp:291:   PD:SCSI\DISK&VEN_CORSAI_&PROD_FORCE_LE_SSD\4&26892DD9&0&000000
+[00:37:21.082] (debug) Win32\src\DeviceManagerImpl.cpp:293:     LD:STORAGE\VOLUME\{540445D8-5881-11E6-AA2C-806E6F6E6963}#0000000000100000
+[00:37:21.082] (debug) Win32\src\DeviceManagerImpl.cpp:293:     LD:STORAGE\VOLUME\{540445D8-5881-11E6-AA2C-806E6F6E6963}#000000001F500000
+[00:37:21.082] (debug) Win32\src\DeviceManagerImpl.cpp:297:       C:\
+[00:37:21.082] (debug) Win32\src\DeviceManagerImpl.cpp:291:   PD:SCSI\DISK&VEN_TOSHIB_&PROD_DT01ACA200\4&26892DD9&0&040000
+[00:37:21.082] (debug) Win32\src\DeviceManagerImpl.cpp:302: ==END PHYSICAL DEVICE MAP==
+[00:37:21.082] (debug) Win32\src\DeviceManagerImpl.cpp:303: ==BEGIN LOGICAL DEVICE MAP==
+[00:37:21.082] (debug) Win32\src\DeviceManagerImpl.cpp:306:   LD:SCSI\CDROM&VEN_TSSTCORP&PROD_CDDVDW_SH-224GB\4&26892DD9&0&050000
+[00:37:21.082] (debug) Win32\src\DeviceManagerImpl.cpp:308:     D:\
+[00:37:21.082] (debug) Win32\src\DeviceManagerImpl.cpp:306:   LD:STORAGE\VOLUME\{540445D8-5881-11E6-AA2C-806E6F6E6963}#0000000000100000
+[00:37:21.082] (debug) Win32\src\DeviceManagerImpl.cpp:311:     PD:SCSI\DISK&VEN_CORSAI_&PROD_FORCE_LE_SSD\4&26892DD9&0&000000
+[00:37:21.082] (debug) Win32\src\DeviceManagerImpl.cpp:306:   LD:STORAGE\VOLUME\{540445D8-5881-11E6-AA2C-806E6F6E6963}#000000001F500000
+[00:37:21.082] (debug) Win32\src\DeviceManagerImpl.cpp:308:     C:\
+[00:37:21.082] (debug) Win32\src\DeviceManagerImpl.cpp:311:     PD:SCSI\DISK&VEN_CORSAI_&PROD_FORCE_LE_SSD\4&26892DD9&0&000000
+[00:37:21.082] (debug) Win32\src\DeviceManagerImpl.cpp:314: ==END LOGICAL DEVICE MAP==
+[00:37:21.082] (warning) src\OSVolume.cpp:101: Can't get disk extents of {279c1d71-587e-11e6-aa29-806e6f6e6963}: Unsupported function
+[00:37:21.098] (warning) src\OSVolume.cpp:143: GetVolumeInformation {279c1d71-587e-11e6-aa29-806e6f6e6963}: The device is not ready. (21)
+[00:37:21.098] (warning) src\OSVolume.cpp:166: GetVolumeInformation {279c1d71-587e-11e6-aa29-806e6f6e6963}: The device is not ready. (21)
+[00:37:21.107] (info) src\DeviceImpl.cpp:123: [Device PD:SCSI\DISK&VEN_CORSAI_&PROD_FORCE_LE_SSD\4&26892DD9&0&000000] Layout:
+[00:37:21.107] (info) src\DeviceImpl.cpp:127:   Device at [0-468862128>, 468862128 blocks
+[00:37:21.107] (info) src\DeviceImpl.cpp:127:     MasterBootRecord at [0-1>, 1 block
+[00:37:21.107] (info) src\DeviceImpl.cpp:127:     Unallocated at [1-2048>, 2047 blocks
+[00:37:21.107] (info) src\DeviceImpl.cpp:127:     PrimaryMBRPartition at [2048-1026048>, 1024000 blocks
+[00:37:21.107] (info) src\DeviceImpl.cpp:127:       NTFSFileSystem at [2048-1026048>, 1024000 blocks
+[00:37:21.107] (info) src\DeviceImpl.cpp:127:     PrimaryMBRPartition at [1026048-468858880>, 467832832 blocks
+[00:37:21.107] (info) src\DeviceImpl.cpp:127:       NTFSFileSystem at [1026048-468858880>, 467832832 blocks
+[00:37:21.107] (info) src\DeviceImpl.cpp:127:     Unallocated at [468858880-468862128>, 3248 blocks
+[00:37:21.107] (info) src\DeviceImpl.cpp:191: PD:SCSI\DISK&VEN_CORSAI_&PROD_FORCE_LE_SSD\4&26892DD9&0&000000: Skipping unallocated section at 1
+[00:37:21.108] (info) src\DeviceImpl.cpp:191: PD:SCSI\DISK&VEN_CORSAI_&PROD_FORCE_LE_SSD\4&26892DD9&0&000000: Skipping unallocated section at 468858880
+[00:37:21.129] (info) src\DeviceImpl.cpp:123: [Device PD:SCSI\DISK&VEN_TOSHIB_&PROD_DT01ACA200\4&26892DD9&0&040000] Layout:
+[00:37:21.129] (info) src\DeviceImpl.cpp:127:   Device at [0-3907029168>, 3907029168 blocks
+[00:37:21.129] (info) src\DeviceImpl.cpp:127:     Unknown at [0-3907029168>, 3907029168 blocks
+[00:37:21.129] (info) src\DeviceImpl.cpp:148: PD:SCSI\DISK&VEN_TOSHIB_&PROD_DT01ACA200\4&26892DD9&0&040000: Empty disk
+[00:37:21.129] (debug) Clone::Manager:0: BEGIN Layout
+[00:37:21.129] (debug) Clone::Manager:0: 3 OS volumes
+[00:37:21.129] (debug) Clone::Manager:0: OS volume 0
+[00:37:21.129] (debug) Clone::Manager:0:   OS Volume {10e30829-0000-0000-0000-100000000000}
+[00:37:21.129] (debug) Clone::Manager:0:   Extent 0
+[00:37:21.129] (debug) Clone::Manager:0:     Device Number 0
+[00:37:21.129] (debug) Clone::Manager:0:     Offset 1048576 - 1.00 MB
+[00:37:21.129] (debug) Clone::Manager:0:     Size 524288000 - 500.00 MB
+[00:37:21.129] (debug) Clone::Manager:0:   FS Total Size 524283904 - 499.102 MB
+[00:37:21.129] (debug) Clone::Manager:0:   FS Free Size 182358016 - 173.93 MB
+[00:37:21.129] (debug) Clone::Manager:0:   FS Used Size 341925888 - 326.08 MB
+[00:37:21.129] (debug) Clone::Manager:0:   Filesystem NTFS
+[00:37:21.129] (debug) Clone::Manager:0:   Location data 
+[00:37:21.129] (debug) Clone::Manager:0:   0 mount points
+[00:37:21.129] (debug) Clone::Manager:0: OS volume 1
+[00:37:21.129] (debug) Clone::Manager:0:   OS Volume {10e30829-0000-0000-0000-501f00000000}
+[00:37:21.129] (debug) Clone::Manager:0:   Extent 0
+[00:37:21.129] (debug) Clone::Manager:0:     Device Number 0
+[00:37:21.129] (debug) Clone::Manager:0:     Offset 525336576 - 501.00 MB
+[00:37:21.129] (debug) Clone::Manager:0:     Size 239530409984 - 223.08 GB
+[00:37:21.129] (debug) Clone::Manager:0:   FS Total Size 239530405888 - 223.08 GB
+[00:37:21.129] (debug) Clone::Manager:0:   FS Free Size 217458343936 - 202.53 GB
+[00:37:21.129] (debug) Clone::Manager:0:   FS Used Size 22072061952 - 20.56 GB
+[00:37:21.129] (debug) Clone::Manager:0:   Filesystem NTFS
+[00:37:21.129] (debug) Clone::Manager:0:   Location data 
+[00:37:21.129] (debug) Clone::Manager:0:   1 mount points
+[00:37:21.129] (debug) Clone::Manager:0:     Mount point 0: C:\
+[00:37:21.129] (debug) Clone::Manager:0: OS volume 2
+[00:37:21.129] (debug) Clone::Manager:0:   OS Volume {279c1d71-587e-11e6-aa29-806e6f6e6963}
+[00:37:21.129] (debug) Clone::Manager:0:   FS Total Size 0 - 0.00  B
+[00:37:21.129] (debug) Clone::Manager:0:   FS Free Size 0 - 0.00  B
+[00:37:21.129] (debug) Clone::Manager:0:   FS Used Size 0 - 0.00  B
+[00:37:21.129] (debug) Clone::Manager:0:   Filesystem Unknown
+[00:37:21.129] (debug) Clone::Manager:0:   Location data 5c 00 3f 00 3f 00 5c 00 53 00 43 00 53 00 49 00 23 00 43 00 64 00 52 00 6f 00 6d 00 26 00 56 00 65 00 6e 00 5f 00 54 00 53 00 53 00 54 00 63 00 6f 00 72 00 70 00 26 00 50 00 72 00 6f 00 64 00 5f 00 43 00 44 00 44 00 56 00 44 00 57 00 5f 00 53 00 48 00 2d 00 32 00 32 00 34 00 47 00 42 00 23 00 34 00 26 00 32 00 36 00 38 00 39 00 32 00 64 00 64 00 39 00 26 00 30 00 26 00 30 00 35 00 30 00 30 00 30 00 30 00 23 00 7b 00 35 00 33 00 66 00 35 00 36 00 33 00 30 00 64 00 2d 00 62 00 36 00 62 00 66 00 2d 00 31 00 31 00 64 00 30 00 2d 00 39 00 34 00 66 00 32 00 2d 00 30 00 30 00 61 00 30 00 63 00 39 00 31 00 65 00 66 00 62 00 38 00 62 00 7d 00
+[00:37:21.129] (debug) Clone::Manager:0:   1 mount points
+[00:37:21.129] (debug) Clone::Manager:0:     Mount point 0: D:\
+[00:37:21.129] (debug) Clone::Manager:0: 2 devices
+[00:37:21.129] (debug) Clone::Manager:0: Device 0
+[00:37:21.129] (debug) Clone::Manager:0:   Identifier PD:SCSI\DISK&VEN_CORSAI_&PROD_FORCE_LE_SSD\4&26892DD9&0&000000
+[00:37:21.129] (debug) Clone::Manager:0:   Path \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:21.129] (debug) Clone::Manager:0:   Device Number 0
+[00:37:21.129] (debug) Clone::Manager:0:   Size 240057409536 - 223.58 GB
+[00:37:21.129] (debug) Clone::Manager:0:   Sector Size 512B
+[00:37:21.129] (debug) Clone::Manager:0:   2 partitions
+[00:37:21.129] (debug) Clone::Manager:0:   Partition 0
+[00:37:21.129] (debug) Clone::Manager:0:     Identifier PrimaryMBRPartition,1048576,524288000
+[00:37:21.129] (debug) Clone::Manager:0:     Type PrimaryMBRPartition
+[00:37:21.129] (debug) Clone::Manager:0:     Offset 1048576 - 1.00 MB
+[00:37:21.129] (debug) Clone::Manager:0:     Size 524288000 - 500.00 MB
+[00:37:21.129] (debug) Clone::Manager:0:     MBR Partition
+[00:37:21.129] (debug) Clone::Manager:0:     Partition Status 128
+[00:37:21.129] (debug) Clone::Manager:0:     Partition Type 7
+[00:37:21.129] (debug) Clone::Manager:0:     SimpleVolume:
+[00:37:21.129] (debug) Clone::Manager:0:       Identifier NTFSFileSystem,1048576,524288000
+[00:37:21.129] (debug) Clone::Manager:0:       Resizable true
+[00:37:21.129] (debug) Clone::Manager:0:       Size 524288000 - 500.00 MB
+[00:37:21.129] (debug) Clone::Manager:0:       Min SimpleVolume Size 348288000 - 332.15 MB
+[00:37:21.129] (debug) Clone::Manager:0:       OS SimpleVolume:
+[00:37:21.129] (debug) Clone::Manager:0:         OS Volume {10e30829-0000-0000-0000-100000000000}
+[00:37:21.129] (debug) Clone::Manager:0:         Extent 0
+[00:37:21.129] (debug) Clone::Manager:0:           Device Number 0
+[00:37:21.129] (debug) Clone::Manager:0:           Offset 1048576 - 1.00 MB
+[00:37:21.129] (debug) Clone::Manager:0:           Size 524288000 - 500.00 MB
+[00:37:21.129] (debug) Clone::Manager:0:         FS Total Size 524283904 - 499.102 MB
+[00:37:21.129] (debug) Clone::Manager:0:         FS Free Size 182358016 - 173.93 MB
+[00:37:21.129] (debug) Clone::Manager:0:         FS Used Size 341925888 - 326.08 MB
+[00:37:21.129] (debug) Clone::Manager:0:         Filesystem NTFS
+[00:37:21.129] (debug) Clone::Manager:0:         Location data 
+[00:37:21.129] (debug) Clone::Manager:0:         0 mount points
+[00:37:21.129] (debug) Clone::Manager:0:   Partition 1
+[00:37:21.129] (debug) Clone::Manager:0:     Identifier PrimaryMBRPartition,525336576,239530409984
+[00:37:21.129] (debug) Clone::Manager:0:     Type PrimaryMBRPartition
+[00:37:21.129] (debug) Clone::Manager:0:     Offset 525336576 - 501.00 MB
+[00:37:21.129] (debug) Clone::Manager:0:     Size 239530409984 - 223.08 GB
+[00:37:21.129] (debug) Clone::Manager:0:     MBR Partition
+[00:37:21.129] (debug) Clone::Manager:0:     Partition Status 0
+[00:37:21.129] (debug) Clone::Manager:0:     Partition Type 7
+[00:37:21.129] (debug) Clone::Manager:0:     SimpleVolume:
+[00:37:21.129] (debug) Clone::Manager:0:       Identifier NTFSFileSystem,525336576,239530409984
+[00:37:21.129] (debug) Clone::Manager:0:       Resizable true
+[00:37:21.129] (debug) Clone::Manager:0:       Size 239530409984 - 223.08 GB
+[00:37:21.129] (debug) Clone::Manager:0:       Min SimpleVolume Size 22074409984 - 20.57 GB
+[00:37:21.129] (debug) Clone::Manager:0:       OS SimpleVolume:
+[00:37:21.129] (debug) Clone::Manager:0:         OS Volume {10e30829-0000-0000-0000-501f00000000}
+[00:37:21.129] (debug) Clone::Manager:0:         Extent 0
+[00:37:21.129] (debug) Clone::Manager:0:           Device Number 0
+[00:37:21.129] (debug) Clone::Manager:0:           Offset 525336576 - 501.00 MB
+[00:37:21.129] (debug) Clone::Manager:0:           Size 239530409984 - 223.08 GB
+[00:37:21.129] (debug) Clone::Manager:0:         FS Total Size 239530405888 - 223.08 GB
+[00:37:21.129] (debug) Clone::Manager:0:         FS Free Size 217458343936 - 202.53 GB
+[00:37:21.129] (debug) Clone::Manager:0:         FS Used Size 22072061952 - 20.56 GB
+[00:37:21.129] (debug) Clone::Manager:0:         Filesystem NTFS
+[00:37:21.129] (debug) Clone::Manager:0:         Location data 
+[00:37:21.129] (debug) Clone::Manager:0:         1 mount points
+[00:37:21.129] (debug) Clone::Manager:0:           Mount point 0: C:\
+[00:37:21.129] (debug) Clone::Manager:0: Device 1
+[00:37:21.129] (debug) Clone::Manager:0:   Identifier PD:SCSI\DISK&VEN_TOSHIB_&PROD_DT01ACA200\4&26892DD9&0&040000
+[00:37:21.129] (debug) Clone::Manager:0:   Path \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:21.129] (debug) Clone::Manager:0:   Device Number 1
+[00:37:21.129] (debug) Clone::Manager:0:   Size 2000398934016 - 1.83 TB
+[00:37:21.129] (debug) Clone::Manager:0:   Sector Size 512B
+[00:37:21.129] (debug) Clone::Manager:0:   0 partitions
+[00:37:21.129] (debug) Clone::Manager:0: END Layout
+[00:37:21.129] (debug) src\SSDToolManagerBase.cpp:200: activeDeviceChanged <none>
+[00:37:21.143] (warning) ..\..\src\common\imagpng.cpp:167: iCCP: known incorrect sRGB profile
+[00:37:21.147] (debug) src\SSDToolDevice.cpp:47: === Start SSDToolDevice ctor for PD:SCSI\DISK&VEN_CORSAI_&PROD_FORCE_LE_SSD\4&26892DD9&0&000000
+[00:37:21.148] (debug) src\WinDevATACommand.cpp:49: \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_ENABLE_OPERATIONS
+[00:37:21.148] (debug) src\DeviceOperationManagerWin.cpp:178: setHandle, 02E62B18, \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:21.148] (debug) src\DeviceOperationManagerWin.cpp:822: =======================
+[00:37:21.148] (debug) src\DeviceOperationManagerWin.cpp:823: ==== Starting probe of \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:21.148] (debug) src\DeviceOperationManagerWin.cpp:558: Probe: ATA direct IDENTIFY DEVICE (MS 0) on \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:21.148] (debug) src\DeviceOperationManagerWin.cpp:563: Probe OK: ATA direct IDENTIFY DEVICE (MS 0) on \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} succeeded
+[00:37:21.148] (debug) src\DeviceOperationManagerWin.cpp:859: ==== Completed probe of \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} - Device type 2 Access method 1
+[00:37:21.148] (debug) src\DeviceOperationManagerWin.cpp:860: =======================
+[00:37:21.148] (debug) src\DeviceOperationManagerWin.cpp:202: setHandle for \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} succeeded, DeviceType 2
+[00:37:21.149] (debug) src\DeviceOperationManagerWin.cpp:1072: ATA SMART (MS 0) SC ENABLE on \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} returned 0 Status 0x50 Error 0x0
+[00:37:21.149] (debug) src\WinDevATACommand.cpp:52: \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_ENABLE_OPERATIONS OK
+[00:37:21.149] (debug) src\WinDevATACommand.cpp:22: \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} IDENTIFY
+[00:37:21.149] (debug) src\DeviceOperationManagerWin.cpp:1072: ATA IDENTIFY DEVICE (MS 0) on \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} returned 0 Status 0x50 Error 0x0
+[00:37:21.149] (debug) src\WinDevATACommand.cpp:25: \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} IDENTIFY OK
+[00:37:21.149] (debug) src\WinDevATACommand.cpp:49: \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_ENABLE_OPERATIONS
+[00:37:21.150] (debug) src\DeviceOperationManagerWin.cpp:1072: ATA SMART (MS 0) SC ENABLE on \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} returned 0 Status 0x50 Error 0x0
+[00:37:21.150] (debug) src\WinDevATACommand.cpp:52: \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_ENABLE_OPERATIONS OK
+[00:37:21.150] (debug) src\WinDevATACommand.cpp:94: \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_READ_THRESHOLDS
+[00:37:21.150] (debug) src\DeviceOperationManagerWin.cpp:1072: ATA SMART (MS 0) SC READ THRESHOLDS on \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} returned 0 Status 0x50 Error 0x0
+[00:37:21.150] (debug) src\WinDevATACommand.cpp:98: \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_READ_THRESHOLDS OK
+[00:37:21.150] (debug) src\WinDevATACommand.cpp:77: \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_READ_DATA
+[00:37:21.151] (debug) src\DeviceOperationManagerWin.cpp:1072: ATA SMART (MS 0) SC READ DATA on \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} returned 0 Status 0x50 Error 0x0
+[00:37:21.151] (debug) src\WinDevATACommand.cpp:81: \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_READ_DATA OK
+[00:37:21.151] (debug) src\WinDevATACommand.cpp:191: \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_RETURN_STATUS
+[00:37:21.151] (debug) src\DeviceOperationManagerWin.cpp:1072: ATA SMART (MS 0) SC RETURN STATUS on \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} returned 0 Status 0x50 Error 0x0
+[00:37:21.151] (debug) src\WinDevATACommand.cpp:195: \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_RETURN_STATUS OK
+[00:37:21.151] (debug) src\WinDevATACommand.cpp:160: \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_WRITE_LOG 224
+[00:37:21.151] (debug) src\DeviceOperationManagerWin.cpp:1072: ATA SMART (MS 0) SC WRITE LOG on \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} returned 0 Status 0x51 Error 0x4
+[00:37:21.151] (debug) src\WinDevATACommand.cpp:163: \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_WRITE_LOG 224 OK
+[00:37:21.151] (debug) src\WinDevATACommand.cpp:22: \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} IDENTIFY
+[00:37:21.151] (debug) src\DeviceOperationManagerWin.cpp:1072: ATA IDENTIFY DEVICE (MS 0) on \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} returned 0 Status 0x50 Error 0x0
+[00:37:21.151] (debug) src\WinDevATACommand.cpp:25: \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} IDENTIFY OK
+[00:37:21.151] (debug) src\WinDevATACommand.cpp:22: \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} IDENTIFY
+[00:37:21.151] (debug) src\DeviceOperationManagerWin.cpp:1072: ATA IDENTIFY DEVICE (MS 0) on \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} returned 0 Status 0x50 Error 0x0
+[00:37:21.151] (debug) src\WinDevATACommand.cpp:25: \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} IDENTIFY OK
+[00:37:21.151] (debug) src\WinDevStorageIOCTL.cpp:14: \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} IOCTL_DISK_GET_CACHE_INFORMATION
+[00:37:21.151] (debug) src\WinDevStorageIOCTL.cpp:22: \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} IOCTL_DISK_GET_CACHE_INFORMATION OK
+[00:37:21.151] (error) src\WinDevRegistry.cpp:38: \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} RegOpenKeyExA: 2 (The system cannot find the file specified.)
+[00:37:21.151] (debug) src\WinDevATACommand.cpp:77: \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_READ_DATA
+[00:37:21.152] (debug) src\DeviceOperationManagerWin.cpp:1072: ATA SMART (MS 0) SC READ DATA on \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} returned 0 Status 0x50 Error 0x0
+[00:37:21.152] (debug) src\WinDevATACommand.cpp:81: \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_READ_DATA OK
+[00:37:21.152] (debug) src\WinDevATACommand.cpp:112: \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} READ LOG EXT 0,0
+[00:37:21.152] (debug) src\DeviceOperationManagerWin.cpp:1072: ATA READ LOG EXT (MS 0) on \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} returned 0 Status 0x50 Error 0x0
+[00:37:21.152] (debug) src\WinDevATACommand.cpp:120: \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} READ LOG EXT 0,0 OK
+[00:37:21.152] (debug) src\SSDToolDevice.cpp:111: === HID=true HBD=true DB=false AA=true for PD:SCSI\DISK&VEN_CORSAI_&PROD_FORCE_LE_SSD\4&26892DD9&0&000000
+[00:37:21.152] (debug) src\SSDToolDevice.cpp:112: === End SSDToolDevice ctor for PD:SCSI\DISK&VEN_CORSAI_&PROD_FORCE_LE_SSD\4&26892DD9&0&000000
+[00:37:21.152] (debug) src\SSDToolDevice.cpp:47: === Start SSDToolDevice ctor for PD:SCSI\DISK&VEN_TOSHIB_&PROD_DT01ACA200\4&26892DD9&0&040000
+[00:37:21.152] (debug) src\WinDevATACommand.cpp:49: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_ENABLE_OPERATIONS
+[00:37:21.152] (debug) src\DeviceOperationManagerWin.cpp:178: setHandle, 02E62708, \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:21.152] (debug) src\DeviceOperationManagerWin.cpp:822: =======================
+[00:37:21.152] (debug) src\DeviceOperationManagerWin.cpp:823: ==== Starting probe of \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:21.152] (debug) src\DeviceOperationManagerWin.cpp:558: Probe: ATA direct IDENTIFY DEVICE (MS 0) on \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+[00:37:21.153] (debug) src\DeviceOperationManagerWin.cpp:563: Probe OK: ATA direct IDENTIFY DEVICE (MS 0) on \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} succeeded
+[00:37:21.153] (debug) src\DeviceOperationManagerWin.cpp:859: ==== Completed probe of \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} - Device type 2 Access method 1
+[00:37:21.153] (debug) src\DeviceOperationManagerWin.cpp:860: =======================
+[00:37:21.153] (debug) src\DeviceOperationManagerWin.cpp:202: setHandle for \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} succeeded, DeviceType 2
+[00:37:21.334] (debug) src\DeviceOperationManagerWin.cpp:1072: ATA SMART (MS 0) SC ENABLE on \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} returned 0 Status 0x50 Error 0x0
+[00:37:21.334] (debug) src\WinDevATACommand.cpp:52: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_ENABLE_OPERATIONS OK
+[00:37:21.334] (debug) src\WinDevATACommand.cpp:22: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} IDENTIFY
+[00:37:21.335] (debug) src\DeviceOperationManagerWin.cpp:1072: ATA IDENTIFY DEVICE (MS 0) on \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} returned 0 Status 0x50 Error 0x0
+[00:37:21.335] (debug) src\WinDevATACommand.cpp:25: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} IDENTIFY OK
+[00:37:21.335] (debug) src\WinDevATACommand.cpp:49: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_ENABLE_OPERATIONS
+[00:37:21.501] (debug) src\DeviceOperationManagerWin.cpp:1072: ATA SMART (MS 0) SC ENABLE on \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} returned 0 Status 0x50 Error 0x0
+[00:37:21.501] (debug) src\WinDevATACommand.cpp:52: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_ENABLE_OPERATIONS OK
+[00:37:21.501] (debug) src\WinDevATACommand.cpp:94: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_READ_THRESHOLDS
+[00:37:21.667] (debug) src\DeviceOperationManagerWin.cpp:1072: ATA SMART (MS 0) SC READ THRESHOLDS on \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} returned 0 Status 0x50 Error 0x0
+[00:37:21.667] (debug) src\WinDevATACommand.cpp:98: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_READ_THRESHOLDS OK
+[00:37:21.667] (debug) src\WinDevATACommand.cpp:77: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_READ_DATA
+[00:37:21.835] (debug) src\DeviceOperationManagerWin.cpp:1072: ATA SMART (MS 0) SC READ DATA on \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} returned 0 Status 0x50 Error 0x0
+[00:37:21.835] (debug) src\WinDevATACommand.cpp:81: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_READ_DATA OK
+[00:37:21.835] (debug) src\WinDevATACommand.cpp:191: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_RETURN_STATUS
+[00:37:22.001] (debug) src\DeviceOperationManagerWin.cpp:1072: ATA SMART (MS 0) SC RETURN STATUS on \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} returned 0 Status 0x50 Error 0x0
+[00:37:22.001] (debug) src\WinDevATACommand.cpp:195: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_RETURN_STATUS OK
+[00:37:22.001] (debug) src\WinDevATACommand.cpp:22: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} IDENTIFY
+[00:37:22.002] (debug) src\DeviceOperationManagerWin.cpp:1072: ATA IDENTIFY DEVICE (MS 0) on \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} returned 0 Status 0x50 Error 0x0
+[00:37:22.002] (debug) src\WinDevATACommand.cpp:25: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} IDENTIFY OK
+[00:37:22.002] (debug) src\WinDevATACommand.cpp:22: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} IDENTIFY
+[00:37:22.003] (debug) src\DeviceOperationManagerWin.cpp:1072: ATA IDENTIFY DEVICE (MS 0) on \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} returned 0 Status 0x50 Error 0x0
+[00:37:22.003] (debug) src\WinDevATACommand.cpp:25: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} IDENTIFY OK
+[00:37:22.003] (debug) src\WinDevStorageIOCTL.cpp:14: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} IOCTL_DISK_GET_CACHE_INFORMATION
+[00:37:22.003] (debug) src\WinDevStorageIOCTL.cpp:22: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} IOCTL_DISK_GET_CACHE_INFORMATION OK
+[00:37:22.003] (error) src\WinDevRegistry.cpp:38: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} RegOpenKeyExA: 2 (The system cannot find the file specified.)
+[00:37:22.003] (debug) src\WinDevATACommand.cpp:77: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_READ_DATA
+[00:37:22.168] (debug) src\DeviceOperationManagerWin.cpp:1072: ATA SMART (MS 0) SC READ DATA on \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} returned 0 Status 0x50 Error 0x0
+[00:37:22.168] (debug) src\WinDevATACommand.cpp:81: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_READ_DATA OK
+[00:37:22.168] (debug) src\WinDevATACommand.cpp:112: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} READ LOG EXT 0,0
+[00:37:22.168] (debug) src\DeviceOperationManagerWin.cpp:1072: ATA READ LOG EXT (MS 0) on \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} returned 0 Status 0x50 Error 0x0
+[00:37:22.168] (debug) src\WinDevATACommand.cpp:120: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} READ LOG EXT 0,0 OK
+[00:37:22.168] (debug) src\SSDToolDevice.cpp:111: === HID=true HBD=true DB=false AA=true for PD:SCSI\DISK&VEN_TOSHIB_&PROD_DT01ACA200\4&26892DD9&0&040000
+[00:37:22.168] (debug) src\SSDToolDevice.cpp:112: === End SSDToolDevice ctor for PD:SCSI\DISK&VEN_TOSHIB_&PROD_DT01ACA200\4&26892DD9&0&040000
+[00:37:22.168] (debug) src\SSDToolManagerBase.cpp:200: activeDeviceChanged PD:SCSI\DISK&VEN_CORSAI_&PROD_FORCE_LE_SSD\4&26892DD9&0&000000
+[00:37:22.238] (debug) src\WinDevATACommand.cpp:136: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_READ_LOG 0,0
+[00:37:22.238] (debug) src\DeviceOperationManagerWin.cpp:1072: ATA SMART (MS 0) SC READ LOG (0,1) on \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} returned 0 Status 0x50 Error 0x0
+[00:37:22.238] (debug) src\WinDevATACommand.cpp:140: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_READ_LOG 0,0 OK
+[00:37:22.238] (debug) src\WinDevATACommand.cpp:136: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_READ_LOG 224,0
+[00:37:22.239] (debug) src\DeviceOperationManagerWin.cpp:1072: ATA SMART (MS 0) SC READ LOG (224,1) on \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} returned 0 Status 0x50 Error 0x0
+[00:37:22.239] (debug) src\WinDevATACommand.cpp:140: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_READ_LOG 224,0 OK
+[00:37:39.934] (debug) SSDCAFirmware.cpp:302: handleFirmwareManagerStateChanged DownloadingSpec Prev '' Cur 'SAFC12.2'
+[00:37:40.729] (debug) SSDCAFirmware.cpp:302: handleFirmwareManagerStateChanged DoneUpToDate Prev '' Cur 'SAFC12.2'
+[00:37:48.485] (debug) src\SMARTDevice.cpp:136: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} removed cached log page 224,0 with TS 00:37:22.238
+[00:37:48.485] (debug) src\WinDevATACommand.cpp:136: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_READ_LOG 224,0
+[00:37:48.486] (debug) src\DeviceOperationManagerWin.cpp:1072: ATA SMART (MS 0) SC READ LOG (224,1) on \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} returned 0 Status 0x50 Error 0x0
+[00:37:48.486] (debug) src\WinDevATACommand.cpp:140: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_READ_LOG 224,0 OK
+[00:37:56.783] (debug) src\WinDevATACommand.cpp:191: \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_RETURN_STATUS
+[00:37:56.783] (debug) src\DeviceOperationManagerWin.cpp:1072: ATA SMART (MS 0) SC RETURN STATUS on \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} returned 0 Status 0x50 Error 0x0
+[00:37:56.783] (debug) src\WinDevATACommand.cpp:195: \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_RETURN_STATUS OK
+[00:37:56.786] (debug) src\WinDevATACommand.cpp:191: \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_RETURN_STATUS
+[00:37:56.787] (debug) src\DeviceOperationManagerWin.cpp:1072: ATA SMART (MS 0) SC RETURN STATUS on \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} returned 0 Status 0x50 Error 0x0
+[00:37:56.787] (debug) src\WinDevATACommand.cpp:195: \\?\scsi#disk&ven_corsai_&prod_force_le_ssd#4&26892dd9&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_RETURN_STATUS OK
+[00:38:03.847] (debug) src\SSDToolManagerBase.cpp:650:  LD LD:STORAGE\VOLUME\{540445D8-5881-11E6-AA2C-806E6F6E6963}#0000000000100000 not mounted
+[00:38:03.847] (debug) src\SSDToolManagerBase.cpp:650:  LD LD:STORAGE\VOLUME\{540445D8-5881-11E6-AA2C-806E6F6E6963}#0000000000100000 not mounted
+[00:38:03.856] (debug) src\SMARTDevice.cpp:136: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} removed cached log page 224,0 with TS 00:37:48.485
+[00:38:03.856] (debug) src\WinDevATACommand.cpp:136: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_READ_LOG 224,0
+[00:38:03.857] (debug) src\DeviceOperationManagerWin.cpp:1072: ATA SMART (MS 0) SC READ LOG (224,1) on \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} returned 0 Status 0x50 Error 0x0
+[00:38:03.857] (debug) src\WinDevATACommand.cpp:140: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_READ_LOG 224,0 OK
+[00:38:33.862] (debug) src\SSDToolManagerBase.cpp:200: activeDeviceChanged PD:SCSI\DISK&VEN_TOSHIB_&PROD_DT01ACA200\4&26892DD9&0&040000
+[00:38:33.863] (debug) src\SMARTDevice.cpp:136: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} removed cached log page 224,0 with TS 00:38:03.856
+[00:38:33.863] (debug) src\WinDevATACommand.cpp:136: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_READ_LOG 224,0
+[00:38:33.864] (debug) src\DeviceOperationManagerWin.cpp:1072: ATA SMART (MS 0) SC READ LOG (224,1) on \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} returned 0 Status 0x50 Error 0x0
+[00:38:33.864] (debug) src\WinDevATACommand.cpp:140: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_READ_LOG 224,0 OK
+[00:38:33.869] (debug) src\SSDToolManagerBase.cpp:621: PD:SCSI\DISK&VEN_TOSHIB_&PROD_DT01ACA200\4&26892DD9&0&040000 not permitted
+[00:38:33.869] (debug) src\SSDToolManagerBase.cpp:621: PD:SCSI\DISK&VEN_TOSHIB_&PROD_DT01ACA200\4&26892DD9&0&040000 not permitted
+[00:38:46.334] (debug) src\WinDevATACommand.cpp:191: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_RETURN_STATUS
+[00:38:46.520] (debug) src\DeviceOperationManagerWin.cpp:1072: ATA SMART (MS 0) SC RETURN STATUS on \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} returned 0 Status 0x50 Error 0x0
+[00:38:46.520] (debug) src\WinDevATACommand.cpp:195: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_RETURN_STATUS OK
+[00:38:46.521] (debug) src\SMARTDevice.cpp:136: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} removed cached log page 224,0 with TS 00:38:33.863
+[00:38:46.521] (debug) src\WinDevATACommand.cpp:136: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_READ_LOG 224,0
+[00:38:46.521] (debug) src\DeviceOperationManagerWin.cpp:1072: ATA SMART (MS 0) SC READ LOG (224,1) on \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} returned 0 Status 0x50 Error 0x0
+[00:38:46.522] (debug) src\WinDevATACommand.cpp:140: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_READ_LOG 224,0 OK
+[00:38:46.541] (debug) src\WinDevATACommand.cpp:191: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_RETURN_STATUS
+[00:38:46.712] (debug) src\DeviceOperationManagerWin.cpp:1072: ATA SMART (MS 0) SC RETURN STATUS on \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} returned 0 Status 0x50 Error 0x0
+[00:38:46.712] (debug) src\WinDevATACommand.cpp:195: \\?\scsi#disk&ven_toshib_&prod_dt01aca200#4&26892dd9&0&040000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} SMARTSUBCOMMAND_RETURN_STATUS OK
+[00:38:50.838] (debug) src\SSDToolManagerBase.cpp:621: PD:SCSI\DISK&VEN_TOSHIB_&PROD_DT01ACA200\4&26892DD9&0&040000 not permitted
+[00:38:50.838] (debug) src\SSDToolManagerBase.cpp:621: PD:SCSI\DISK&VEN_TOSHIB_&PROD_DT01ACA200\4&26892DD9&0&040000 not permitted

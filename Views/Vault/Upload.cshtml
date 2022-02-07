@@ -1,0 +1,44 @@
+﻿
+
+<h1>You can upload your data here </h1>
+
+<style>
+    {
+        box-sizing: border-box;
+    }
+
+    .uploadform {
+        width: 80%;
+        margin: 1em auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+
+    .nav-link text-dark {
+        flex: 0 0 100%;
+    }
+
+    button:first-of-type {
+        margin-right: 2em;
+    }
+
+    
+</style>
+
+
+<div>
+    <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Verified User : @User.Identity.Name!</a>
+</div>
+
+<div class="uploadform">
+   
+    <form method="post" enctype="multipart/form-data" asp-controller="Vault" asp-action="SaveData">
+        Title <input type="text" name="title" /> <br />
+        Description <textarea name="description"></textarea> <br />
+        Attachment <input type="file" name="attachment" /> <br />
+        <input type="submit" />
+    </form>
+</div>
+   
